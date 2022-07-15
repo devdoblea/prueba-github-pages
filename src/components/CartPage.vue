@@ -10,7 +10,8 @@
 
     <div class="cart-total">
       <p>gran total : <span>$9/-</span></p>
-      <a href="/checkout" class="btn">pagar tu pedido</a>
+      <!-- <a href="/checkout" class="btn">pagar tu pedido</a> -->
+      <router-link class="btn" to="/checkout">pagar tu pedido</router-link>
     </div>
 
     <div class="box-container">
