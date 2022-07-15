@@ -156,7 +156,8 @@
       </div>
 
       <div class="more-btn">
-        <a href="/menu" class="btn">ver todos</a>
+        <!-- <a href="/menu" class="btn">ver todos</a> -->
+        <router-link class="btn" to="/menu">ver todos</router-link>
       </div>
 
     </section>
