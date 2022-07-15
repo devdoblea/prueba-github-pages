@@ -9,7 +9,7 @@
       <input type="password" required maxlength="20" name="pass" placeholder="enter your password" class="box" oninput="this.value = this.value.replace(/\s/g, '')">
       <input type="password" required maxlength="20" name="cpass" placeholder="confirm your password" class="box" oninput="this.value = this.value.replace(/\s/g, '')">
       <input type="submit" value="regisetr now" class="btn" name="submit">
-      <p>already have an account? <a href="login.html">Entrar</a></p>
+      <p>already have an account? <router-link to="/login">Entrar</router-link></p>
     </form>
 
   </section>

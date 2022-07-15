@@ -1,7 +1,7 @@
 <template>
   <div class="heading">
     <h3>contactanos</h3>
-    <p><a href="/">inicio </a> <span> / contactanos</span></p>
+    <p><router-link to="/">inicio</router-link> <span> / contactanos</span></p>
   </div>
 
   <section class="contact">

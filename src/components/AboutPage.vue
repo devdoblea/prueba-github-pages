@@ -1,7 +1,7 @@
 <template>
   <div class="heading">
     <h3>nosotros</h3>
-    <p><a href="/">inicio </a> <span> / nosotros</span></p>
+    <p><router-link to="/"> inicio </router-link> <span> / nosotros</span></p>
   </div>
 
   <section class="about">
@@ -15,7 +15,7 @@
       <div class="content">
         <h3>por qué elegirnos?</h3>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis non odit nihil, doloremque sunt aut placeat culpa. Adipisci minima, neque necessitatibus incidunt nemo eveniet mollitia quis facere vel consectetur culpa?</p>
-        <a href="/landing/menu" class="btn">nuestro menu</a>
+        <router-link to="/menu" class="btn"> nuestro menu </router-link>
       </div>
 
     </div>

@@ -10,7 +10,7 @@
             <div class="content">
               <span>pídelo online</span>
               <h3>pollo a la brasa</h3>
-              <a href="/menu" class="btn">ver menus</a>
+              <router-link class="btn" to="/menu">ver menus</router-link>
             </div>
             <div class="image">
               <img src="../assets/images/home-img-3.png" alt="">
@@ -21,7 +21,7 @@
             <div class="content">
               <span>pídelo online</span>
               <h3>combos de hamburguesa</h3>
-              <a href="/menu" class="btn">ver menus</a>
+              <router-link class="btn" to="/menu">ver menus</router-link>
             </div>
             <div class="image">
               <img src="../assets/images/home-img-2.png" alt="">
@@ -32,7 +32,7 @@
             <div class="content">
               <span>pídelo online</span>
               <h3>pizzas deliciosas</h3>
-              <a href="/menu" class="btn">ver menus</a>
+              <router-link class="btn" to="/menu">ver menus</router-link>
             </div>
             <div class="image">
               <img src="../assets/images/home-img-1.png" alt="">
@@ -53,25 +53,25 @@
 
       <div class="box-container">
 
-        <a href="/category" class="box">
+        <router-link class="box" to="/category">
           <img src="../assets/images/cat-1.png" alt="">
           <h3>comida rápida</h3>
-        </a>
+        </router-link>
 
-        <a href="/category" class="box">
+        <router-link class="box" to="/category">
           <img src="../assets/images/cat-2.png" alt="">
           <h3>platos principales</h3>
-        </a>
+        </router-link>
 
-        <a href="/category" class="box">
+        <router-link class="box" to="/category">
           <img src="../assets/images/cat-3.png" alt="">
           <h3>bebidas</h3>
-        </a>
+        </router-link>
 
-        <a href="/category" class="box">
+        <router-link class="box" to="/category">
           <img src="../assets/images/cat-4.png" alt="">
           <h3>postres</h3>
-        </a>
+        </router-link>
       </div>
 
     </section>
@@ -83,10 +83,10 @@
       <div class="box-container">
 
         <div class="box">
-          <a href="/quick_view"> <i class="fas fa-eye fa-2xs"></i> </a>
-          <a href="/add_to_cart"> <i class="fas fa-cart-plus fa-2xs"></i> </a>
+          <router-link to="/quick_view"> <i class="fas fa-eye fa-2xs"></i> </router-link>
+          <router-link to="/add_to_cart"> <i class="fas fa-cart-plus fa-2xs"></i> </router-link>
           <img src="../assets/uploaded_img/pizza-1.png" alt="">
-          <a href="/category" class="cat">comida rápida</a>
+          <router-link to="/category" class="cat">comida rápida</router-link>
           <div class="name">pizza 3 quesos 01</div>
           <div class="flex">
             <div class="price"><span>$</span>3<span>/-</span>s</div>
@@ -95,10 +95,10 @@
         </div>
 
         <div class="box">
-          <a href="/quick_view"> <i class="fas fa-eye fa-2xs"></i> </a>
-          <a href="/add_to_cart"> <i class="fas fa-cart-plus fa-2xs"></i> </a>
+          <router-link to="/quick_view"> <i class="fas fa-eye fa-2xs"></i> </router-link>
+          <router-link to="/add_to_cart"> <i class="fas fa-cart-plus fa-2xs"></i> </router-link>
           <img src="../assets/uploaded_img/dish-1.png" alt="">
-          <a href="/category" class="cat">platos principales</a>
+          <router-link to="/category" class="cat">platos principales</router-link>
           <div class="name">pasta al dente 01</div>
           <div class="flex">
             <div class="price"><span>$</span>3<span>/-</span></div>
@@ -107,10 +107,10 @@
         </div>
 
         <div class="box">
-          <a href="/quick_view"> <i class="fas fa-eye fa-2xs"></i> </a>
-          <a href="/add_to_cart"> <i class="fas fa-cart-plus fa-2xs"></i> </a>
+          <router-link to="/quick_view"> <i class="fas fa-eye fa-2xs"></i> </router-link>
+          <router-link to="/add_to_cart"> <i class="fas fa-cart-plus fa-2xs"></i> </router-link>
           <img src="../assets/uploaded_img/burger-1.png" alt="">
-          <a href="/category" class="cat">comida rápida</a>
+          <router-link to="/category" class="cat">comida rápida</router-link>
           <div class="name">hamburguesa de queso 01</div>
           <div class="flex">
             <div class="price"><span>$</span>3<span>/-</span></div>
@@ -119,10 +119,10 @@
         </div>
 
         <div class="box">
-          <a href="/quick_view"> <i class="fas fa-eye fa-2xs"></i> </a>
-          <a href="/add_to_cart"> <i class="fas fa-cart-plus fa-2xs"></i> </a>
+          <router-link to="/quick_view"> <i class="fas fa-eye fa-2xs"></i> </router-link>
+          <router-link to="/add_to_cart"> <i class="fas fa-cart-plus fa-2xs"></i> </router-link>
           <img src="../assets/uploaded_img/dessert-1.png" alt="">
-          <a href="/category" class="cat">postres</a>
+          <router-link to="/category" class="cat">postres</router-link>
           <div class="name">fresas con crema 01</div>
           <div class="flex">
             <div class="price"><span>$</span>3<span>/-</span></div>
@@ -131,10 +131,10 @@
         </div>
 
         <div class="box">
-          <a href="/quick_view"> <i class="fas fa-eye fa-2xs"></i> </a>
-          <a href="/add_to_cart"> <i class="fas fa-cart-plus fa-2xs"></i> </a>
+          <router-link to="/quick_view"> <i class="fas fa-eye fa-2xs"></i> </router-link>
+          <router-link to="/add_to_cart"> <i class="fas fa-cart-plus fa-2xs"></i> </router-link>
           <img src="../assets/uploaded_img/drink-1.png" alt="">
-          <a href="/category" class="cat">bebidas</a>
+          <router-link to="/category" class="cat">bebidas</router-link>
           <div class="name">jugo natural 01</div>
           <div class="flex">
             <div class="price"><span>$</span>3<span>/-</span></div>
@@ -143,10 +143,10 @@
         </div>
 
         <div class="box">
-          <a href="/quick_view"> <i class="fas fa-eye fa-2xs"></i> </a>
-          <a href="/add_to_cart"> <i class="fas fa-cart-plus fa-2xs"></i> </a>
+          <router-link to="/quick_view"> <i class="fas fa-eye fa-2xs"></i> </router-link>
+          <router-link to="/add_to_cart"> <i class="fas fa-cart-plus fa-2xs"></i> </router-link>
           <img src="../assets/uploaded_img/dish-2.png" alt="">
-          <a href="/category" class="cat">platos principales</a>
+          <router-link to="/category" class="cat">platos principales</router-link>
           <div class="name">pollo frito 02</div>
           <div class="flex">
             <div class="price"><span>$</span>3<span>/-</span></div>

@@ -15,17 +15,17 @@
         <p><span class="name">pollo frito 02</span><span class="price">$3</span></p>
         <p><span class="name">fresas con crema 01</span><span class="price">$3</span></p>
         <p class="grand-total"><span class="name">gran total :</span> <span class="price">$9</span></p>
-        <a href="/cart" class="btn">ver carrito</a>
+        <router-link to="/cart" class="btn">ver carrito</router-link>
       </div>
       <div class="user-info">
         <h3>tu info</h3>
         <p><i class="fas fa-user"></i> <span>pablo perez</span></p>
         <p><i class="fas fa-phone"></i> <span>1234567890</span></p>
         <p><i class="fas fa-envelope"></i> <span>pabloperez69@gmail.com</span></p>
-        <a href="/update_profile" class="btn">actualizar info</a>
+        <router-link to="/update_profile" class="btn">actualizar info</router-link>
         <h3>dirección de entrega</h3>
         <p class="address"><i class="fas fa-map-marker-alt"></i> <span>calle 18 con carrera 16 edificio los palomares vereda del norte mazathlan</span></p>
-        <a href="/update_address" class="btn">actualizar dirección</a>
+        <router-link to="/update_address" class="btn">actualizar dirección</router-link>
         <select name="method" class="box" required>
           <option value="" disabled selected>seleciona metodo de pago</option>
           <option value="delivery">pago al delivery</option>
