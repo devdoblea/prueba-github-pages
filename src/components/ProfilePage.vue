@@ -1,7 +1,7 @@
 <template>
   <div class="heading">
     <h3>mi perfil</h3>
-    <p><a href="/">inicio </a> <span> / perfil</span></p>
+    <p><router-link to="/"> inicio </router-link> <span> / perfil</span></p>
   </div>
 
   <section class="user-details">

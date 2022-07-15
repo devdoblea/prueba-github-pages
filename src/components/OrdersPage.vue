@@ -1,7 +1,7 @@
 <template>
   <div class="heading">
     <h3>tus pedidos</h3>
-    <p><a href="/landing/index">inicio </a> <span> / pedidos</span></p>
+    <p><router-link to="/"> inicio </router-link> <span> / pedidos</span></p>
   </div>
 
   <section class="orders">
