@@ -1,0 +1,46 @@
+#RewriteBase /
+#RewriteEngine On
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.*)$ index.php/$1 [L]
+
+# ----------------------------------------------------------------------
+# Para cuando son hostings compartidos
+<IfModule mod_rewrite.c>
+  Options +FollowSymLinks
+  RewriteBase /
+  RewriteEngine On
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.*)$ index.php?/$1 [L]
+</IfModule>
+
+# -------------------
+# para servidores https
+#RewriteCond %{HTTPS} !=on
+#RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+
+# ----------------------------------------------------------------------
+# Webfont access
+# ----------------------------------------------------------------------
+
+# Allow access from all domains for webfonts.
+# Alternatively you could only whitelist your
+# subdomains like "subdomain.example.com".
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.(eot|font.css|otf|ttc|ttf|woff)$">
+      Header set Access-Control-Allow-Origin "prueba-github-page.netlify.app"
+  </FilesMatch>
+</IfModule>
+
+# Start A2 Switcher Block
+# Do not remove or modify this block! Added by PHP Switcher from cPanel to use an alternate PHP version. Contact Support for details.
+#<IfModule mod_suphp.c>
+  # AddHandler application/x-httpd-php-5.4.13 .php
+  # Use PHP(7|7.1|7.2|7.3|7.4) as default
+# AddHandler application/x-httpd-php(70|71|72|73|74) .php
+# AddHandler fcgid(70|71|72|73|74)-script .php
+#</IfModule>
+# End A2 Switcher Block
