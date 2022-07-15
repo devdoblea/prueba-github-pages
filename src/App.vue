@@ -1,8 +1,8 @@
 <template>
   <!-- IMAGEN PRELOADER  -->
-  <div class="loader">
+  <!-- <div class="loader">
     <img src="./assets/images/loader.gif" alt="">
-  </div>
+  </div> -->
   <!-- FIN IMAGEN PRELOADER  -->
   <!-- HEADER  -->
   <Header />
