@@ -73,6 +73,21 @@ const routes = [
     name: 'Checkout',
     component: Checkout
   },
+  {
+    path: '/add_to_cart',
+    name: 'AddToCar',
+    component: Checkout
+  },
+  {
+    path: '/quick_view',
+    name: 'QuickView',
+    component: Checkout
+  },
+  {
+    path: '/category',
+    name: 'Category',
+    component: Checkout
+  },
 ]
 
 const history = createWebHistory();
